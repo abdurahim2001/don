@@ -8,6 +8,18 @@
     width: 100%;
     height: 100%;
 }
+.navbar_color{
+    border-radius: 15px;
+    height: 12vh;
+    width: 100%;
+}
+
+.menu_navbar{
+    width: 93%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 .menu_section{
     display: flex;
     justify-content: space-between;
@@ -34,8 +46,8 @@
 }
 .menu_igon svg{
     color: #5a1177;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     transition: 0.5s;
 }
 .igon_1:hover svg{
@@ -47,16 +59,44 @@
   transform: translateY(-5px);
   transition: 0.5s;
 }
+.svg_menu{
+    width: 25px;
+    height: 25px;
+    color: #5a1177;
+    transition: 0.5s;
+}
+.o_div{
+    width: 60px;
+}
 .b_menu{
-    font-size: 25px;
-    font-weight: 400;
+    font-size:20px;
+    font-weight: 450;
+    color: #5a1177;
+    color: rgb(0, 0, 0);
 }
 .b_menu:hover{
-   color: rgba(13, 186, 243, 0.904);
+    color: #35b8fc;
    -o-transform: translateY(-5px);
    -ms-transform: translateY(-5px);
    -moz-transform: translateY(-5px);
    -webkit-transform: translateY(-5px);  
    transform: translateY(-5px);
    transition: 0.5s;
+}
+
+@media (min-width :320px) and (max-width: 374px){
+
+.menu_section{
+    flex-direction: column;
+}
+.menu_text{
+    flex-direction: column;
+}
+.igon_1 svg{
+    width: 0px;
+    height:0px;
+    color: #5a1177;
+    transition: 0.5s;
+}
+
 }

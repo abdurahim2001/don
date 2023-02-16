@@ -6,6 +6,9 @@ import Machen from './components/Machen.jsx';
 import Menu from './components/Menu.jsx';
 import Glavnay from './components/Glavnay';
 import Comer from './components/Comer';
+import Footer from './components/Footer';
+import Kvar from './components/Kvar';
+import Contac from './components/Contac';
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
       <Route  path='/menu' element={<Menu/>} />
       <Route  path='/glavnay' element={<Glavnay/>} />
       <Route  path='/comer' element={<Comer/>} />
+      <Route  path='/footer' element={<Footer/>} />
+      <Route  path='/kvar' element={<Kvar/>} />
+      <Route  path='/contac' element={<Contac/>} />
       </Routes> 
       </BrowserRouter>
     </div>

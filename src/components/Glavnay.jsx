@@ -15,6 +15,7 @@ import a from './Glavnay.module.css'
 // import img_13 from '../img/kvar_13.svg'
 // import img_14 from '../img/kvar_14.svg'
 import { Navbar, Container, Nav, Button, FormControl, Form, NavLink, } from 'react-bootstrap';
+import Footer from './Footer'
 const Glavnay = () => {
     return (
         <div className={a.body}>
@@ -324,7 +325,7 @@ const Glavnay = () => {
                 </section>
 
             </header>
-            
+            <Footer/>
 
 
         </div>

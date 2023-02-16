@@ -1,6 +1,7 @@
 import React from 'react'
 import a from './Comer.module.css'
 import img_1 from '../img/walking.png'
+import Footer from './Footer'
 
 
 
@@ -104,7 +105,7 @@ const Comer = () => {
 
 
 
-
+<Footer/>
         </div>
     )
 }

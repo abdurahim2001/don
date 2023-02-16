@@ -1,7 +1,9 @@
 .forma_bac{
     width: 990px;
 }
-
+.body{
+    background-color: rgba(229, 230, 230, 0.76);
+}
 .forma_bac_1{
     background-image: url('../img/forma_img_1.jpg');
     width: 100%;
@@ -9,6 +11,7 @@
     background-size: cover;
     transition: 0.7s;
     border-radius: 20px;
+    filter: brightness(0.3);
 }
 .forma_bac_02{
     background-image: url('../img/forma_img_2.jpg');
@@ -17,6 +20,7 @@
     background-size: cover;
     transition: 0.7s;
     border-radius: 20px;
+    filter: brightness(0.3);
 }
 .forma_bac_03{
     background-image: url('../img/forma_img_4.jpg');
@@ -25,6 +29,7 @@
     background-size: cover;
     transition: 0.7s;
     border-radius: 20px;
+    filter: brightness(0.3);
 }
 .forma_bac_04{
     background-image: url('../img/forma_img_5.jpg');
@@ -33,15 +38,31 @@
     background-size: cover;
     transition: 0.7s;
     border-radius: 20px;
+    filter: brightness(0.3);
 }
+
 .forma_bac_02{
     padding-left: 20px;
     padding-right: 20px;
 }
 .forma_bac_1:hover{
-    transform: scale(1.02);
+    filter: brightness(1);
     transition: 0.7s;
-
+   
+}
+.forma_bac_02:hover{
+    filter: brightnesfooter_menus(1);
+    transition: 0.7s;
+   
+}
+.forma_bac_03:hover{
+    filter: brightness(1);
+    transition: 0.7s;
+   
+}
+.forma_bac_04:hover{
+    filter: brightness(1);
+    transition: 0.7s;
    
 }
 .man_flex{
@@ -50,10 +71,11 @@
 padding-right: 15px;
 padding: 5px;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.288);
+    background-color: rgba(9, 88, 119, 0.562);
     width: 250px;
     color: aliceblue;
     border-radius: 20px;
+
 }
 .man_flex img{
     width: 30px;
@@ -72,11 +94,25 @@ padding: 5px;
 .forma_bac_1{
     padding-left: 20px;
     padding-right: 20px;
-}.forma_bac_1_1{
+}
+.forma_bac_02{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.forma_bac_03{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.forma_bac_04{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.forma_bac_1_1{
     display: flex;
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
+gap: 5px;
 }
 .forma_bac_1 h2{
     color: aliceblue;
@@ -86,13 +122,14 @@ padding: 5px;
 }
 .forma_h1{
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
 }
 .forma_h1 h1{
     font-size: 60px;
     font-weight: 800;
+
 }
 .forma_p{
     display: flex;
@@ -137,9 +174,11 @@ padding: 5px;
     background-size: cover;
     transition: 0.7s;
     border-radius: 20px;
+
+    filter: brightness(0.3);
 }
 .forma_bac_1_2:hover{
-    transform: scale(1.02);
+    filter: brightness(1);
     transition: 0.7s;
 
    
